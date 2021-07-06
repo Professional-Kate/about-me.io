@@ -78,10 +78,11 @@
 .column-content {
   width: clamp(
     45ch,
-    5rem,
+    2rem,
     75ch
   ); /* makes sure the text is always nicely readable */
-  font-size: 2rem;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
 }
 
 .column-content img {
@@ -98,4 +99,10 @@
   margin-top: 3em; /* adds some white space above the footer and below it */
   border-top: 5px solid var(--highlight-text-color); /* nice dividing line */
   font-size: 2rem;
+}
+
+.in-line-link {
+  text-decoration: none;
+  color: var(--highlight-text-color);
+  border-bottom: 1px solid var(--highlight-text-color);
 }
