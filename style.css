@@ -13,9 +13,40 @@
 * {
   background: var(--primary-background-color);
   color: var(--primary-text-color);
-
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+.top-bar-nav {
+  position: fixed;
+  display: flex;
+  width: 100vw; /* whole screen */
+  height: 60px;
+}
+
+.top-bar-nav ul {
+  display: flex;
+  gap: 2em; /* space between the elements */
+  padding: 1.5em; /* moves the element away from the corner of the screen */
+}
+
+.top-bar-nav li {
+  list-style: none;
+}
+
+.top-bar-nav a,
+span {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 2rem;
+  outline: none; /* makes the on focus state look better */
+}
+
+.top-bar-nav a:hover,
+.top-bar-nav a:focus {
+  color: var(--highlight-text-color);
+  transition: all 300ms ease-out;
+  border-bottom: 3px solid var(--highlight-text-color);
 }
 
 .main-header {
