@@ -30,4 +30,4 @@ Everyday I'm making something new with CSS/HTML/JS with the eventual goal of bec
 
 👀 I want to learn HTML/CSS and JS, but, in a broader sense? I have no idea and I think that's okay for now. I want to be a full-stack developer, so that's really my end goal. But it isn't my End goal, if you know what I mean.
 
-💖 I want to meet my Boyfriend in real life because I love him more than anything! He's in America and I'm planning to visit him sometime near December, so I think for now... That's what I want to accomplish 🥰
+💖 I want to meet my Boyfriend in real life because I love him more than anything! I've known him now for two years, but only started dating three months ago, so I would really like to meet him. He's in America and I'm planning to visit him sometime near December, so I think for now... That's what I want to accomplish 🥰
