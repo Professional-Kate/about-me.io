@@ -29,9 +29,6 @@
   display: flex;
   gap: 2em; /* space between the elements */
   padding: 1.5em; /* moves the element away from the corner of the screen */
-}
-
-.top-bar-nav li {
   list-style: none;
 }
 
@@ -57,13 +54,33 @@ span {
 
 .column-container {
   display: flex;
-}
-
-.even-column {
-  width: 100%;
+  gap: 5em;
+  flex-direction: column;
+  align-items: center;
 }
 
 .column-header {
-  color: var(--highlight-text-color);
+  color: var(--primary-background-color);
+  background: rgb(28, 199, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 199, 235, 1) 0%,
+    rgba(161, 161, 255, 1) 50%,
+    rgba(255, 77, 131, 1) 100%
+  );
   font-size: 2rem;
+  padding: 1em; /* makes some blank space around the header */
+  margin-bottom: 1em; /* puts some space between the header and the text */
+  text-align: left;
+}
+
+.column-content {
+  width: clamp(45ch, 5rem, 75ch);
+  font-size: 2rem;
+}
+
+.column-content img {
+  width: 95%;
+  height: auto;
+  padding-bottom: 0.75em; /* push the elements below the image down */
 }
